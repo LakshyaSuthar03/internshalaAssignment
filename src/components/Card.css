@@ -1,0 +1,22 @@
+.card img {
+  width: 35px;
+  height: 100%;
+  object-fit: contain;
+}
+.card {
+  width: 200px;
+  height: auto;
+  text-align: center;
+  padding: 15px;
+  margin: 20px;
+  font-size: small;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.161) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.104) 0px 3px 7px -3px;
+  cursor: pointer;
+}
