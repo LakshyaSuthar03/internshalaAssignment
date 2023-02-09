@@ -38,7 +38,7 @@ export function Home() {
   useEffect(() => {
     const fetchCoins = async () => {
       const data = await axios.get(
-        `https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currency}&per_page=18&page=${page}`
+        `https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currency}&per_page=15&page=${page}`
       );
       setCoins(data.data);
     };
